@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  
   "scripts": {
+    "start":"node index.js",
     "test": "jest --no-color 2>output.txt",
     "start": "webpack-dev-server --mode development --watch --open --hot",
     "build": "webpack --mode production"
@@ -12,7 +14,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "cypress":"^9.5.0"
+   
     "css-loader": "^4.3.0",
     "jest-junit": "^11.1.0",
     "react": "^16.13.1",
